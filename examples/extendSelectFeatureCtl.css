@@ -1,0 +1,45 @@
+.olControlPanel div { 
+  display:block;
+  width:  24px;
+  height: 24px;
+  margin: 2px;
+  background-color: #8DB2E3;
+ }
+
+
+.olControlPanel .olControlExSelectFeatureItemActive {
+  background-color: orange;
+  background-image: url("images/draw_point_on.png"); 
+
+}
+.olControlPanel .olControlExSelectFeatureItemInactive {
+  background-color: #8DB2E3;
+  background-image: url("images/draw_point_off.png"); 
+}
+
+.olControlPanel .olControlGetCoordinateItemActive {
+  background-color: orange;
+  background-image: url("images/coordinate.png");
+}
+.olControlPanel .olControlGetCoordinateItemInactive {
+  background-color: #8DB2E3;
+  background-image: url("images/coordinate.png");
+}
+
+.olControlPanel .olControlExMeasureItemActive {
+  background-color: orange;
+  background-image: url("images/ruler-on.png");
+}
+.olControlPanel .olControlExMeasureItemInactive {
+  background-color: #8DB2E3;
+  background-image: url("images/ruler-off.png");
+}
+
+.olControlPanel .olControlPathTrackItemActive {
+  background-color: orange;
+  background-image: url("images/car.png");
+}
+.olControlPanel .olControlPathTrackItemInactive {
+  background-color: #8DB2E3;
+  background-image: url("images/car.png");
+}
